@@ -38,7 +38,7 @@ class ResultsPage extends Page {
     logPropertyNumber(): void {
         this.propertiesHeaderTextAs('properties')
         cy.get('@properties').then((properties) => {
-            cy.log(properties.split(" ")[1].replace(",", ""))
+            cy.log(String(properties).split(" ")[1].replace(",", ""))
         })
     }
 

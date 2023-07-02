@@ -10,5 +10,6 @@ export default {
         CITY: "Porto",
         COUNTRY: "Portugal"
     },
-    MONTHS: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+    MONTHS: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+    NEXT_MONTH: String((new Date().getMonth()+1)%12 + 1)
 }

@@ -1,5 +1,5 @@
-import Page from './page';
-import CONSTANTS from "../constants";
+import Page from './page'
+import CONSTANTS from "../constants"
 
 class ResultsPage extends Page {
 
@@ -51,4 +51,4 @@ class ResultsPage extends Page {
 
 }
 
-export default new ResultsPage(CONSTANTS.URL.RESULTS);
+export default new ResultsPage(CONSTANTS.URL.RESULTS)

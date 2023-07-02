@@ -1,9 +1,9 @@
 //PAGE OBJECTS
-import LandingPage from '../page-objects/landing.page';
-import ResultsPage from '../page-objects/results.page';
+import LandingPage from '../page-objects/landing.page'
+import ResultsPage from '../page-objects/results.page'
 
 //CONSTANTS
-import CONSTANTS from "../constants";
+import CONSTANTS from "../constants"
 
 describe('Challenge Exercise', () => {
   before('Open Booking Landing Page', () => {

@@ -1,5 +1,5 @@
-import Page from './page';
-import CONSTANTS from "../constants";
+import Page from './page'
+import CONSTANTS from "../constants"
 
 class LandingPage extends Page {
 
@@ -60,4 +60,4 @@ class LandingPage extends Page {
     }
 }
 
-export default new LandingPage(CONSTANTS.URL.BASE);
+export default new LandingPage(CONSTANTS.URL.BASE)

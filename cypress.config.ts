@@ -6,4 +6,5 @@ export default defineConfig({
     baseUrl: 'https://www.booking.com',
     testIsolation: false,
   },
+  reporter: 'mochawesome',
 })

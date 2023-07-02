@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "cypress": "cypress open",
-    "cypress:all": "cypress run"
+    "cypress:all": "cypress run",
+    "cypress:report": "cypress run --reporter mochawesome"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
     "cypress": "12.16.0"
   },
   "dependencies": {
+    "mochawesome": "^7.1.3",
     "typescript": "^5.1.6"
   }
 }
